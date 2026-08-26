@@ -1,0 +1,853 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Seeni Syed Basith S | Machine Learning & AI Engineer Fresher</title>
+  <meta name="description"
+    content="Recruiter-focused portfolio of Seeni Syed Basith S, Machine Learning & AI Engineer Fresher specializing in Python, predictive modeling, computer vision, and ML workflow deployment.">
+  <meta name="keywords"
+    content="Seeni Syed Basith, Machine Learning Engineer, AI Engineer, Fresher, Portfolio, Computer Vision, XGBoost, Streamlit, Python, Data Science">
+
+  <!-- CSS Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <!-- Background Grid Lines Overlay -->
+  <div class="bg-grid-overlay"></div>
+
+  <!-- STICKY NAVIGATION BAR -->
+  <header class="navbar" id="navbar">
+    <div class="container">
+      <a href="#home" class="nav-brand" aria-label="Seeni Syed Basith Portfolio Home">
+        <div class="nav-logo-badge">SB</div>
+        <div>
+          <span class="nav-brand-text">Seeni Syed Basith</span>
+          <span class="nav-brand-role">AI / ML Engineer</span>
+        </div>
+      </a>
+
+      <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle Navigation Menu" aria-expanded="false">
+        ☰
+      </button>
+
+      <nav>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#education" class="nav-link">Education</a></li>
+          <li><a href="#certifications" class="nav-link">Certifications</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO SECTION -->
+    <section class="hero" id="home">
+      <div class="container">
+        <div class="hero-grid">
+          <div class="hero-content">
+            <div class="hero-badge">
+              <span class="pulse-dot"></span>
+              <span>Available for Entry-Level AI/ML Roles</span>
+            </div>
+
+            <h1 class="hero-title">
+              Hi, I'm <span class="gradient-text">Seeni Syed Basith S</span>
+            </h1>
+
+            <div class="hero-role">
+              Machine Learning / AI Engineer Fresher
+            </div>
+
+            <p class="hero-bio">
+              Passionate AI/ML fresher focused on building practical machine learning solutions using Python, data
+              analysis, and predictive modeling. I enjoy transforming real-world data into intelligent and useful
+              applications.
+            </p>
+
+            <div class="hero-metrics">
+              <div class="metric-item">
+                <span class="metric-val gradient-text">8.384</span>
+                <span class="metric-label">B.E. CSE (AI/ML) CGPA</span>
+              </div>
+              <div class="metric-item">
+                <span class="metric-val gradient-text">3+</span>
+                <span class="metric-label">End-to-End Projects</span>
+              </div>
+              <div class="metric-item">
+                <span class="metric-val gradient-text">5</span>
+                <span class="metric-label">Certifications &amp; Internship</span>
+              </div>
+            </div>
+
+            <div class="hero-ctas">
+              <a href="#projects" class="btn btn-primary">
+                <span>View My Projects</span>
+                <span>→</span>
+              </a>
+              <button onclick="downloadResume()" class="btn btn-secondary">
+                <span>📄</span>
+                <span>Download Resume</span>
+              </button>
+              <a href="https://github.com/seenibasith57-os" target="_blank" rel="noopener noreferrer"
+                class="btn btn-outline">
+                <span>GitHub</span>
+              </a>
+              <a href="https://linkedin.com/in/seeni5" target="_blank" rel="noopener noreferrer"
+                class="btn btn-outline">
+                <span>LinkedIn</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- Hero Neural Model Graphic Window -->
+          <div class="hero-visual">
+            <div class="hero-card-window">
+              <div class="window-header">
+                <div class="window-dots">
+                  <span class="dot dot-red"></span>
+                  <span class="dot dot-yellow"></span>
+                  <span class="dot dot-green"></span>
+                </div>
+                <span class="window-title">ml_model_architecture.py</span>
+              </div>
+
+              <!-- Animated Neural SVG -->
+              <svg class="neural-graphic" viewBox="0 0 400 220" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                  <linearGradient id="linkGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+                    <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.6" />
+                    <stop offset="100%" stop-color="#6366f1" stop-opacity="0.6" />
+                  </linearGradient>
+                </defs>
+                <!-- Connections -->
+                <line x1="50" y1="50" x2="180" y2="40" stroke="url(#linkGrad)" stroke-width="1.5" />
+                <line x1="50" y1="50" x2="180" y2="110" stroke="url(#linkGrad)" stroke-width="1.5" />
+                <line x1="50" y1="110" x2="180" y2="40" stroke="url(#linkGrad)" stroke-width="1.5" />
+                <line x1="50" y1="110" x2="180" y2="110" stroke="url(#linkGrad)" stroke-width="1.5" />
+                <line x1="50" y1="110" x2="180" y2="180" stroke="url(#linkGrad)" stroke-width="1.5" />
+                <line x1="50" y1="170" x2="180" y2="110" stroke="url(#linkGrad)" stroke-width="1.5" />
+                <line x1="50" y1="170" x2="180" y2="180" stroke="url(#linkGrad)" stroke-width="1.5" />
+
+                <line x1="180" y1="40" x2="330" y2="80" stroke="url(#linkGrad)" stroke-width="1.5" />
+                <line x1="180" y1="110" x2="330" y2="80" stroke="url(#linkGrad)" stroke-width="1.5" />
+                <line x1="180" y1="110" x2="330" y2="150" stroke="url(#linkGrad)" stroke-width="1.5" />
+                <line x1="180" y1="180" x2="330" y2="150" stroke="url(#linkGrad)" stroke-width="1.5" />
+
+                <!-- Input Nodes -->
+                <circle cx="50" cy="50" r="10" fill="#0f172a" stroke="#38bdf8" stroke-width="2" />
+                <circle cx="50" cy="110" r="10" fill="#0f172a" stroke="#38bdf8" stroke-width="2" />
+                <circle cx="50" cy="170" r="10" fill="#0f172a" stroke="#38bdf8" stroke-width="2" />
+
+                <!-- Hidden Layer Nodes -->
+                <circle cx="180" cy="40" r="12" fill="#0f172a" stroke="#6366f1" stroke-width="2.5" />
+                <circle cx="180" cy="110" r="12" fill="#0f172a" stroke="#6366f1" stroke-width="2.5" />
+                <circle cx="180" cy="180" r="12" fill="#0f172a" stroke="#6366f1" stroke-width="2.5" />
+
+                <!-- Output Layer Nodes -->
+                <circle cx="330" cy="80" r="14" fill="#0f172a" stroke="#a855f7" stroke-width="3" />
+                <circle cx="330" cy="150" r="14" fill="#0f172a" stroke="#34d399" stroke-width="3" />
+
+                <!-- Node Labels -->
+                <text x="50" y="200" text-anchor="middle" fill="#94a3b8" font-size="10">Features</text>
+                <text x="180" y="208" text-anchor="middle" fill="#94a3b8" font-size="10">Ensemble / CNN Layer</text>
+                <text x="330" y="180" text-anchor="middle" fill="#34d399" font-size="10">Predictions</text>
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section class="about" id="about">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-tag">Candidate Profile</div>
+          <h2 class="section-title">About <span class="gradient-text">Me</span></h2>
+          <p class="section-subtitle">Fresher Machine Learning &amp; AI Engineer ready to solve real-world problems</p>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-card">
+            <p class="about-p">
+              I am an AI/ML fresher with a strong academic background in Artificial Intelligence &amp; Machine Learning
+              (B.E. CSE AI/ML, CGPA 8.384) and hands-on experience developing machine learning and computer vision
+              projects.
+            </p>
+            <p class="about-p">
+              My focus is on designing efficient data pipelines, training robust predictive models, performing detailed
+              model evaluation, and building lightweight web applications to deploy intelligent AI solutions.
+            </p>
+
+            <div class="highlights-title">Core Competencies &amp; Highlights:</div>
+            <div class="highlights-tags">
+              <span class="tag-pill"><span>⚡</span> Machine Learning</span>
+              <span class="tag-pill"><span>🐍</span> Python</span>
+              <span class="tag-pill"><span>📈</span> Data Analysis</span>
+              <span class="tag-pill"><span>👁️</span> Computer Vision</span>
+              <span class="tag-pill"><span>🧠</span> Model Development</span>
+              <span class="tag-pill"><span>🎯</span> Model Evaluation</span>
+              <span class="tag-pill"><span>🚀</span> Deployment</span>
+            </div>
+          </div>
+
+          <div class="about-stats-grid">
+            <div class="stat-card">
+              <span class="stat-icon">🎓</span>
+              <div class="stat-num">8.384</div>
+              <div class="stat-desc">CGPA in B.E. CSE (AI &amp; ML)</div>
+            </div>
+            <div class="stat-card">
+              <span class="stat-icon">💻</span>
+              <div class="stat-num">3</div>
+              <div class="stat-desc">Production-Ready Projects</div>
+            </div>
+            <div class="stat-card">
+              <span class="stat-icon">📜</span>
+              <div class="stat-num">5</div>
+              <div class="stat-desc">Industry Certifications</div>
+            </div>
+            <div class="stat-card">
+              <span class="stat-icon">🏢</span>
+              <div class="stat-num">2 Mo.</div>
+              <div class="stat-desc">AI &amp; ML Internship</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS SECTION -->
+    <section class="skills" id="skills">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-tag">Technical Competencies</div>
+          <h2 class="section-title">Skills &amp; <span class="gradient-text">Technologies</span></h2>
+          <p class="section-subtitle">A comprehensive breakdown of my machine learning, deep learning, and engineering
+            toolset</p>
+        </div>
+
+        <div class="skills-grid">
+          <!-- Programming -->
+          <div class="skill-category-card">
+            <div class="category-header">
+              <div class="category-icon">💻</div>
+              <h3 class="category-title">Programming</h3>
+            </div>
+            <div class="skill-chips">
+              <div class="skill-chip"><span class="chip-dot"></span>Python</div>
+              <div class="skill-chip"><span class="chip-dot"></span>SQL</div>
+            </div>
+          </div>
+
+          <!-- Machine Learning Concepts -->
+          <div class="skill-category-card">
+            <div class="category-header">
+              <div class="category-icon">🧠</div>
+              <h3 class="category-title">Machine Learning</h3>
+            </div>
+            <div class="skill-chips">
+              <div class="skill-chip"><span class="chip-dot"></span>Supervised Learning</div>
+              <div class="skill-chip"><span class="chip-dot"></span>Classification</div>
+              <div class="skill-chip"><span class="chip-dot"></span>Regression</div>
+              <div class="skill-chip"><span class="chip-dot"></span>Feature Engineering</div>
+              <div class="skill-chip"><span class="chip-dot"></span>Model Evaluation</div>
+
+            </div>
+          </div>
+
+          <!-- ML Algorithms -->
+          <div class="skill-category-card">
+            <div class="category-header">
+              <div class="category-icon">⚙️</div>
+              <h3 class="category-title">ML Algorithms</h3>
+            </div>
+            <div class="skill-chips">
+              <div class="skill-chip"><span class="chip-dot"></span>XGBoost</div>
+              <div class="skill-chip"><span class="chip-dot"></span>Random Forest</div>
+              <div class="skill-chip"><span class="chip-dot"></span>Logistic Regression</div>
+              <div class="skill-chip"><span class="chip-dot"></span>Linear Regression</div>
+              <div class="skill-chip"><span class="chip-dot"></span>K-Nearest Neighbors (KNN)</div>
+            </div>
+          </div>
+
+          <!-- Libraries -->
+          <div class="skill-category-card">
+            <div class="category-header">
+              <div class="category-icon">📚</div>
+              <h3 class="category-title">Libraries</h3>
+            </div>
+            <div class="skill-chips">
+              <div class="skill-chip"><span class="chip-dot"></span>Pandas</div>
+              <div class="skill-chip"><span class="chip-dot"></span>NumPy</div>
+              <div class="skill-chip"><span class="chip-dot"></span>Scikit-learn</div>
+              <div class="skill-chip"><span class="chip-dot"></span>Matplotlib</div>
+              <div class="skill-chip"><span class="chip-dot"></span>Plotly</div>
+            </div>
+          </div>
+
+          <!-- Deep Learning & Computer Vision -->
+          <div class="skill-category-card">
+            <div class="category-header">
+              <div class="category-icon">👁️</div>
+              <h3 class="category-title">Deep Learning &amp; Computer Vision</h3>
+            </div>
+            <div class="skill-chips">
+              <div class="skill-chip"><span class="chip-dot"></span>TensorFlow</div>
+              <div class="skill-chip"><span class="chip-dot"></span>Keras</div>
+              <div class="skill-chip"><span class="chip-dot"></span>OpenCV</div>
+              <div class="skill-chip"><span class="chip-dot"></span>MobileNetV2</div>
+            </div>
+          </div>
+
+          <!-- Tools & Deployment -->
+          <div class="skill-category-card">
+            <div class="category-header">
+              <div class="category-icon">🛠️</div>
+              <h3 class="category-title">Tools &amp; Deployment</h3>
+            </div>
+            <div class="skill-chips">
+              <div class="skill-chip"><span class="chip-dot"></span>Streamlit</div>
+              <div class="skill-chip"><span class="chip-dot"></span>Git</div>
+              <div class="skill-chip"><span class="chip-dot"></span>GitHub</div>
+              <div class="skill-chip"><span class="chip-dot"></span>VS Code</div>
+              <div class="skill-chip"><span class="chip-dot"></span>Jupyter Notebook</div>
+              <div class="skill-chip"><span class="chip-dot"></span>Kaggle</div>
+            </div>
+          </div>
+
+          <!-- Data & Visualization -->
+          <div class="skill-category-card">
+            <div class="category-header">
+              <div class="category-icon">📊</div>
+              <h3 class="category-title">Data &amp; Visualization</h3>
+            </div>
+            <div class="skill-chips">
+              <div class="skill-chip"><span class="chip-dot"></span>Power BI</div>
+              <div class="skill-chip"><span class="chip-dot"></span>Excel</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <section class="projects" id="projects">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-tag">Featured Work</div>
+          <h2 class="section-title">Practical <span class="gradient-text">ML &amp; AI Projects</span></h2>
+          <p class="section-subtitle">Hands-on applications built from raw data processing to interactive model
+            deployment</p>
+        </div>
+
+        <!-- Filter Tabs -->
+        <div class="filter-tabs">
+          <button class="filter-btn active" data-filter="all">All Projects</button>
+          <button class="filter-btn" data-filter="ml">Machine Learning</button>
+          <button class="filter-btn" data-filter="dl">Deep Learning</button>
+          <button class="filter-btn" data-filter="cv">Computer Vision</button>
+          <button class="filter-btn" data-filter="nlp">NLP</button>
+        </div>
+
+        <div class="projects-grid">
+          <!-- PROJECT 1: CardioSense -->
+          <div class="project-card" data-category="ml">
+            <div class="project-thumb-box">
+              <img src="assets/projects/cardiosense.svg" alt="CardioSense Heart Health Dashboard" class="project-img">
+              <span class="project-category-badge">Machine Learning</span>
+            </div>
+
+            <div class="project-content">
+              <h3 class="project-title">CardioSense — Heart Health Score &amp; Risk Assessment System</h3>
+
+              <p class="project-desc">
+                Developed an ML-powered healthcare application that predicts heart health risk and generates a
+                personalized Heart Health Score. The application provides risk-level insights, personalized health
+                recommendations, interactive visualizations, and downloadable PDF reports.
+              </p>
+
+              <div class="problem-box">
+                <div class="problem-title">Problem Solved</div>
+                <div class="problem-text">Automates early cardiovascular risk screening by evaluating medical biomarkers
+                  and delivering actionable PDF health reports.</div>
+              </div>
+
+              <ul class="features-list">
+                <li class="feature-item"><span class="feature-check">✓</span> Heart health risk prediction</li>
+                <li class="feature-item"><span class="feature-check">✓</span> Heart Health Score calculation</li>
+                <li class="feature-item"><span class="feature-check">✓</span> Feature engineering &amp; scaling</li>
+                <li class="feature-item"><span class="feature-check">✓</span> Personalized recommendations</li>
+                <li class="feature-item"><span class="feature-check">✓</span> Interactive Plotly visualizations</li>
+                <li class="feature-item"><span class="feature-check">✓</span> Downloadable PDF health report</li>
+                <li class="feature-item"><span class="feature-check">✓</span> Streamlit web deployment</li>
+              </ul>
+
+              <div class="tech-badges">
+                <span class="tech-badge">Python</span>
+                <span class="tech-badge">XGBoost</span>
+                <span class="tech-badge">Random Forest</span>
+                <span class="tech-badge">Scikit-learn</span>
+                <span class="tech-badge">Pandas</span>
+                <span class="tech-badge">NumPy</span>
+                <span class="tech-badge">Streamlit</span>
+                <span class="tech-badge">Plotly</span>
+                <span class="tech-badge">ReportLab</span>
+                <span class="tech-badge">Joblib</span>
+              </div>
+
+              <div class="project-actions">
+                <!-- Editable GitHub Link Placeholder -->
+                <a href="https://github.com/seenibasith57-os/CardioSense" target="_blank" rel="noopener noreferrer"
+                  class="btn btn-secondary">
+                  <span>GitHub</span>
+                </a>
+                <!-- Editable Demo Link Placeholder -->
+                <button type="button" class="btn btn-primary protected-demo-btn"
+                  data-demo-url="https://drive.google.com/file/d/1SESe5Hddzvyr49AV-UvYrskHVG8r_pf8/view?usp=sharing"
+                  data-demo-name="CardioSense">
+                  <span>🎥 Watch Demo</span>
+                  <span>→</span>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- PROJECT 2: Face Mask Detection -->
+          <div class="project-card" data-category="dl cv">
+            <div class="project-thumb-box">
+              <img src="assets/projects/facemask.svg" alt="Face Mask Detection System Preview" class="project-img">
+              <span class="project-category-badge">Deep Learning / Computer Vision</span>
+            </div>
+
+            <div class="project-content">
+              <h3 class="project-title">Face Mask Detection System</h3>
+
+              <p class="project-desc">
+                Developed a real-time computer vision system to detect whether a person is wearing a face mask. The
+                system combines OpenCV-based face detection with a MobileNetV2 deep learning classifier.
+              </p>
+
+              <div class="problem-box">
+                <div class="problem-title">Problem Solved</div>
+                <div class="problem-text">Enables real-time automated safety compliance monitoring in public spaces
+                  using lightweight mobile deep learning models.</div>
+              </div>
+
+              <ul class="features-list">
+                <li class="feature-item"><span class="feature-check">✓</span> Real-time face detection with Caffe SSD
+                </li>
+                <li class="feature-item"><span class="feature-check">✓</span> Mask / No Mask binary classification</li>
+                <li class="feature-item"><span class="feature-check">✓</span> Deep learning-based MobileNetV2
+                  architecture</li>
+                <li class="feature-item"><span class="feature-check">✓</span> OpenCV video stream integration</li>
+              </ul>
+
+              <div class="tech-badges">
+                <span class="tech-badge">Python</span>
+                <span class="tech-badge">TensorFlow</span>
+                <span class="tech-badge">Keras</span>
+                <span class="tech-badge">MobileNetV2</span>
+                <span class="tech-badge">OpenCV</span>
+                <span class="tech-badge">Caffe SSD</span>
+                <span class="tech-badge">NumPy</span>
+              </div>
+
+              <div class="project-actions">
+                <!-- Editable GitHub Link Placeholder -->
+                <a href="https://github.com/seenibasith57-os/Real-time-face-mask-detection" target="_blank"
+                  rel="noopener noreferrer" class="btn btn-secondary">
+                  <span>GitHub</span>
+                </a>
+                <!-- Editable Demo Link Placeholder -->
+                <button onclick="showToast('Face Mask Detection runs locally via OpenCV camera feed')"
+                  class="btn btn-primary">
+                  <span>Live Demo</span>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- PROJECT 3: Medical Assistant Chatbot -->
+          <div class="project-card" data-category="nlp ml">
+            <div class="project-thumb-box">
+              <img src="assets/projects/medibot.svg" alt="Medical Assistant Chatbot UI" class="project-img">
+              <span class="project-category-badge">NLP / Machine Learning</span>
+            </div>
+
+            <div class="project-content">
+              <h3 class="project-title">Medical Assistant Chatbot</h3>
+
+              <p class="project-desc">
+                Developed an AI-based medical assistant chatbot that provides informational responses to user
+                health-related questions through a conversational interface.
+              </p>
+
+              <div class="problem-box">
+                <div class="problem-title">Problem Solved</div>
+                <div class="problem-text">Provides instantaneous, structured baseline health information for general
+                  medical queries via natural text interaction.</div>
+              </div>
+
+              <ul class="features-list">
+                <li class="feature-item"><span class="feature-check">✓</span> Conversational chat interface</li>
+                <li class="feature-item"><span class="feature-check">✓</span> Health-related question handling</li>
+                <li class="feature-item"><span class="feature-check">✓</span> NLP-based text processing</li>
+                <li class="feature-item"><span class="feature-check">✓</span> Simple user-friendly UI</li>
+              </ul>
+
+              <div class="tech-badges">
+                <span class="tech-badge">Python</span>
+                <span class="tech-badge">NLP</span>
+                <span class="tech-badge">Machine Learning</span>
+                <span class="tech-badge">Streamlit</span>
+                <span class="tech-badge">Pandas</span>
+              </div>
+
+              <div class="project-actions">
+                <!-- Editable GitHub Link Placeholder -->
+                <a href="https://github.com/seenibasith57-os/Medical-assistant-chatBot" target="_blank"
+                  rel="noopener noreferrer" class="btn btn-secondary">
+                  <span>GitHub</span>
+                </a>
+                <!-- Editable Demo Link Placeholder -->
+                <button type="button" class="btn btn-primary protected-demo-btn"
+                  data-demo-url="https://drive.google.com/file/d/1CrHQ266amlVFELYJAQoN5yorCfoVyub-/view?usp=sharing"
+                  data-demo-name="Medical assistant chatBot">
+                  <span>🎥 Watch Demo</span>
+                  <span>→</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION SECTION -->
+    <section class="education" id="education">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-tag">Academic Background</div>
+          <h2 class="section-title">Education &amp; <span class="gradient-text">Qualifications</span></h2>
+          <p class="section-subtitle">Solid foundational degree specializing in Artificial Intelligence and Machine
+            Learning</p>
+        </div>
+
+        <div class="edu-card">
+          <div class="edu-icon-badge">🎓</div>
+          <div>
+            <h3 class="edu-degree">B.E. Computer Science and Engineering</h3>
+            <div class="edu-specialization">Specialization: Artificial Intelligence and Machine Learning</div>
+            <div class="edu-inst">
+              <span>🏛️ Sethu Institute of Technology</span>
+            </div>
+            <div class="edu-cgpa-badge">
+              <span>Academic Distinction: CGPA</span>
+              <span style="font-size:1.1rem; font-weight:800;">8.384</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CERTIFICATIONS SECTION -->
+    <section class="certifications" id="certifications">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-tag">Verified Credentials</div>
+          <h2 class="section-title">Certifications &amp; <span class="gradient-text">Internship</span></h2>
+          <p class="section-subtitle">Click any certificate preview to inspect full verification documents</p>
+        </div>
+
+        <div class="certs-grid">
+          <!-- Cert 1: AI & ML Internship -->
+          <div class="cert-card">
+            <div class="cert-preview-box">
+              <img src="assets/certificates/ml.jpeg" alt="Artificial Intelligence & ML Internship Certificate"
+                class="cert-preview-img">
+              <div class="cert-overlay">
+                <span>🔍 Click to View Certificate</span>
+              </div>
+            </div>
+            <div class="cert-body">
+              <h3 class="cert-title">Artificial Intelligence &amp; Machine Learning Internship (2 Months)</h3>
+              <div class="cert-org">Next Gen Edu Tantr (Startup India / AICTE)</div>
+              <div class="cert-meta">
+                <span>Completion: June 10, 2026</span>
+                <span style="font-family:monospace; color:#34d399;">VERIFIED</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Cert 2: Power BI -->
+          <div class="cert-card">
+            <div class="cert-preview-box">
+              <img src="assets/certificates/Powert bi.png" alt="Power BI for Beginners Certificate"
+                class="cert-preview-img">
+              <div class="cert-overlay">
+                <span>🔍 Click to View Certificate</span>
+              </div>
+            </div>
+            <div class="cert-body">
+              <h3 class="cert-title">Power BI for Beginners</h3>
+              <div class="cert-org">Simplilearn / SkillUp (Powered by Microsoft)</div>
+              <div class="cert-meta">
+                <span>Issued: 19th Aug 2026</span>
+                <span style="font-family:monospace;">ID: 10622543</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Cert 3: Data Analysis using Python -->
+          <div class="cert-card">
+            <div class="cert-preview-box">
+              <img src="assets/certificates/Dataanalysis using python.png" alt="Data Analysis using Python Certificate"
+                class="cert-preview-img">
+              <div class="cert-overlay">
+                <span>🔍 Click to View Certificate</span>
+              </div>
+            </div>
+            <div class="cert-body">
+              <h3 class="cert-title">Data Analysis using Python</h3>
+              <div class="cert-org">CodeChef Roadmap</div>
+              <div class="cert-meta">
+                <span>Issued: 17th July 2026</span>
+                <span style="font-family:monospace;">ID: 1dee563</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Cert 4: Python with Beginner DSA -->
+          <div class="cert-card">
+            <div class="cert-preview-box">
+              <img src="assets/certificates/python.png" alt="Python with Beginner DSA Certificate"
+                class="cert-preview-img">
+              <div class="cert-overlay">
+                <span>🔍 Click to View Certificate</span>
+              </div>
+            </div>
+            <div class="cert-body">
+              <h3 class="cert-title">Python with Beginner DSA</h3>
+              <div class="cert-org">CodeChef Roadmap</div>
+              <div class="cert-meta">
+                <span>Issued: 30th July 2026</span>
+                <span style="font-family:monospace;">ID: d3b87bb</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Cert 5: SQL Roadmap -->
+          <div class="cert-card">
+            <div class="cert-preview-box">
+              <img src="assets/certificates/sql.png" alt="SQL Roadmap for Data Analysis Certificate"
+                class="cert-preview-img">
+              <div class="cert-overlay">
+                <span>🔍 Click to View Certificate</span>
+              </div>
+            </div>
+            <div class="cert-body">
+              <h3 class="cert-title">SQL Roadmap for Data Analysis</h3>
+              <div class="cert-org">CodeChef Roadmap</div>
+              <div class="cert-meta">
+                <span>Issued: 25th July 2026</span>
+                <span style="font-family:monospace;">ID: b681e47</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- RESUME SECTION CTA -->
+    <section class="resume-cta">
+      <div class="container">
+        <div class="cta-box">
+          <h2 class="cta-title">Interested in <span class="gradient-text">working together?</span></h2>
+          <p class="cta-text">
+            I'm actively looking for entry-level opportunities in Machine Learning, Artificial Intelligence, and Data
+            Science.
+          </p>
+
+          <div class="cta-buttons">
+            <button onclick="downloadResume()" class="btn btn-primary">
+              <span>📄 Download Resume</span>
+            </button>
+            <a href="https://github.com/seenibasith57-os" target="_blank" rel="noopener noreferrer"
+              class="btn btn-secondary">
+              <span>GitHub Profile</span>
+            </a>
+            <a href="https://linkedin.com/in/seeni5" target="_blank" rel="noopener noreferrer"
+              class="btn btn-secondary">
+              <span>LinkedIn Profile</span>
+            </a>
+            <a href="#contact" class="btn btn-outline">
+              <span>Contact Me</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <!-- CONTACT SECTION -->
+<section class="contact" id="contact">
+
+    <div class="container">
+
+        <div class="section-header">
+            <div class="section-tag">GET IN TOUCH</div>
+
+            <h2 class="section-title">
+                Contact <span class="gradient-text">Information</span>
+            </h2>
+
+            <p class="section-subtitle">
+                Let's connect for entry-level AI/ML roles or collaboration
+            </p>
+        </div>
+
+        <div class="contact-info-card">
+
+            <!-- Email -->
+            <a href="mailto:seenibasith57@gmail.com" class="info-item">
+                <div class="info-icon">✉</div>
+
+                <div class="info-content">
+                    <div class="info-label">EMAIL ADDRESS</div>
+                    <div class="info-value">
+                        seenibasith57@gmail.com
+                    </div>
+                </div>
+
+                <span class="info-arrow">↗</span>
+            </a>
+
+            <!-- Location -->
+            <div class="info-item">
+                <div class="info-icon">⌖</div>
+
+                <div class="info-content">
+                    <div class="info-label">LOCATION</div>
+                    <div class="info-value">
+                        Tamil Nadu, India
+                    </div>
+                </div>
+            </div>
+
+            <!-- GitHub -->
+            <a href="https://github.com/seenibasith57-os"
+               target="_blank"
+               rel="noopener noreferrer"
+               class="info-item">
+
+                <div class="info-icon">◉</div>
+
+                <div class="info-content">
+                    <div class="info-label">GITHUB</div>
+                    <div class="info-value">
+                        github.com/seenibasith57-os
+                    </div>
+                </div>
+
+                <span class="info-arrow">↗</span>
+            </a>
+
+            <!-- LinkedIn -->
+            <a href="https://linkedin.com/in/seeni5"
+               target="_blank"
+               rel="noopener noreferrer"
+               class="info-item">
+
+                <div class="info-icon">in</div>
+
+                <div class="info-content">
+                    <div class="info-label">LINKEDIN</div>
+                    <div class="info-value">
+                        linkedin.com/in/seeni5
+                    </div>
+                </div>
+
+                <span class="info-arrow">↗</span>
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <p class="footer-text">
+        © 2026 Seeni Syed Basith S. Built with passion for AI &amp; Machine Learning.
+      </p>
+    </div>
+  </footer>
+
+
+  <!-- PROTECTED LIVE DEMO ACCESS MODAL -->
+  <div class="demo-protection-overlay" id="demoProtectionModal" aria-hidden="true">
+    <div class="demo-protection-box" role="dialog" aria-modal="true" aria-labelledby="demoProtectionTitle">
+      <button class="demo-protection-close" id="demoProtectionClose" type="button" aria-label="Close">
+        ✕
+      </button>
+
+      <div class="demo-security-icon">🔐</div>
+      <div class="section-tag demo-security-tag">Protected Live Demo</div>
+      <h3 id="demoProtectionTitle">Live Demo Access</h3>
+      <p class="demo-protection-text" id="demoProtectionStatus">Protected access • Enter the demo code to continue</p>
+
+      <form id="demoProtectionForm" autocomplete="off">
+        <label for="demoAccessCode" class="form-label">Demo Access Code</label>
+        <div class="demo-code-wrap">
+          <input type="password" id="demoAccessCode" class="form-input" placeholder="Enter access code" inputmode="text"
+            maxlength="32" required>
+          <button type="button" class="demo-eye-btn" id="demoCodeToggle" aria-label="Show access code">👁</button>
+        </div>
+
+        <div class="demo-protection-error" id="demoProtectionError" role="alert"></div>
+
+        <label class="demo-trust-row">
+          <input type="checkbox" id="demoRememberAccess">
+          <span>Remember for this session</span>
+        </label>
+
+        <button type="submit" class="btn btn-primary demo-unlock-btn">
+          <span>🔓 Unlock Demo</span>
+          <span>→</span>
+        </button>
+      </form>
+
+      <div class="demo-protection-note">
+        <span>🛡️</span>
+        <span>Protected demo gateway • Your access code is not sent anywhere by this portfolio page.</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- CERTIFICATE MODAL PREVIEW -->
+  <div class="modal-overlay" id="certModal">
+    <div class="modal-box">
+      <button class="modal-close" id="certModalClose">✕</button>
+      <h3 id="certModalTitle" style="color:var(--primary-cyan); font-size:1.25rem;">Certificate Document</h3>
+      <img src="" id="certModalImg" alt="Certificate Full Document" class="modal-body-img">
+    </div>
+  </div>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+</body>
+
+</html>

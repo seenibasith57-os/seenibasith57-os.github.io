@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="100%" height="100%">
+  <defs>
+    <linearGradient id="cvBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#020617"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="450" rx="16" fill="url(#cvBg)"/>
+  
+  <!-- Header Bar -->
+  <rect width="800" height="40" fill="rgba(15, 23, 42, 0.9)" rx="16"/>
+  <circle cx="25" cy="20" r="6" fill="#ef4444"/>
+  <circle cx="45" cy="20" r="6" fill="#f59e0b"/>
+  <circle cx="65" cy="20" r="6" fill="#10b981"/>
+  <text x="400" y="25" text-anchor="middle" font-family="'Inter', sans-serif" font-size="13" font-weight="600" fill="#38bdf8">Real-Time Vision Feed — OpenCV + MobileNetV2</text>
+
+  <!-- Camera Frame Viewport -->
+  <rect x="50" y="60" width="700" height="360" rx="12" fill="#090d16" stroke="rgba(56, 189, 248, 0.2)" stroke-width="2"/>
+  
+  <!-- Grid overlay lines -->
+  <line x1="280" y1="60" x2="280" y2="420" stroke="rgba(56, 189, 248, 0.08)" stroke-width="1" stroke-dasharray="4,4"/>
+  <line x1="520" y1="60" x2="520" y2="420" stroke="rgba(56, 189, 248, 0.08)" stroke-width="1" stroke-dasharray="4,4"/>
+  <line x1="50" y1="180" x2="750" y2="180" stroke="rgba(56, 189, 248, 0.08)" stroke-width="1" stroke-dasharray="4,4"/>
+  <line x1="50" y1="300" x2="750" y2="300" stroke="rgba(56, 189, 248, 0.08)" stroke-width="1" stroke-dasharray="4,4"/>
+
+  <!-- Person 1: Mask Detected (Green Box) -->
+  <g transform="translate(140, 100)">
+    <!-- Bounding Box -->
+    <rect x="0" y="0" width="180" height="230" rx="8" fill="rgba(16, 185, 129, 0.05)" stroke="#10b981" stroke-width="3"/>
+    <!-- Label Badge -->
+    <rect x="0" y="-30" width="160" height="30" rx="4" fill="#10b981"/>
+    <text x="10" y="-10" font-family="sans-serif" font-size="13" font-weight="bold" fill="#ffffff">MASK: 99.4%</text>
+
+    <!-- Stylized Head Silhouette with Mask -->
+    <circle cx="90" cy="80" r="50" fill="#334155"/>
+    <path d="M 50,85 C 50,120 130,120 130,85 L 130,110 C 130,135 50,135 50,110 Z" fill="#10b981"/>
+    <line x1="45" y1="85" x2="135" y2="85" stroke="#ffffff" stroke-width="2"/>
+  </g>
+
+  <!-- Person 2: No Mask / Alert (Red Box) -->
+  <g transform="translate(480, 100)">
+    <!-- Bounding Box -->
+    <rect x="0" y="0" width="180" height="230" rx="8" fill="rgba(239, 68, 68, 0.05)" stroke="#ef4444" stroke-width="3"/>
+    <!-- Label Badge -->
+    <rect x="0" y="-30" width="170" height="30" rx="4" fill="#ef4444"/>
+    <text x="10" y="-10" font-family="sans-serif" font-size="13" font-weight="bold" fill="#ffffff">NO MASK: 98.7%</text>
+
+    <!-- Stylized Head Silhouette without Mask -->
+    <circle cx="90" cy="80" r="50" fill="#475569"/>
+    <!-- Eyes -->
+    <circle cx="75" cy="75" r="5" fill="#f8fafc"/>
+    <circle cx="105" cy="75" r="5" fill="#f8fafc"/>
+    <!-- Mouth -->
+    <path d="M 75,105 Q 90,115 105,105" fill="none" stroke="#ef4444" stroke-width="3"/>
+  </g>
+
+  <!-- Bottom FPS & Model Bar -->
+  <rect x="70" y="370" width="660" height="36" rx="6" fill="rgba(15, 23, 42, 0.85)" stroke="rgba(255,255,255,0.1)"/>
+  <text x="90" y="393" font-family="monospace" font-size="12" fill="#38bdf8">FPS: 30.2 | Caffe SSD Face Detector + MobileNetV2 Classifier | Latency: 12ms</text>
+</svg>
