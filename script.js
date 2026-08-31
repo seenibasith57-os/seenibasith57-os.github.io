@@ -155,7 +155,7 @@ function downloadResume() {
       <h1>SEENI SYED BASITH S</h1>
       <div class="subtitle">Machine Learning / AI Engineer Fresher</div>
       <div class="contact-line">
-        Email: seenibasith57@gmail.com | Phone: +91 9080534215 | Location: Tamil Nadu, India | GitHub: github.com/seenibasith57
+        Email: seenibasith57@gmail.com | Phone: +91 9080534215 | Location: Tamil Nadu, India | GitHub: github.com/seenibasith57-os | LinkedIn: linkedin.com/in/seeni5
       </div>
 
       <h2>Professional Summary</h2>
